@@ -1,0 +1,12 @@
+.nav {
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav > button {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    background-color: white;
+    cursor: pointer;
+}

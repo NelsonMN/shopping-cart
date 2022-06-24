@@ -16,7 +16,7 @@ const Home = () => {
         <div className="section1">
           <div className="hero-text">
             <h1>Rediscover the joy of camping </h1>
-            <button className="shop-button">Shop Now</button>
+            <Link  to='/shop'><button className="shop-button">Shop Now</button> </Link>
           </div>
           <img src={homeBackground} alt="hero-img"></img>
         </div>

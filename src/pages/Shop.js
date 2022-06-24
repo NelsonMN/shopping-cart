@@ -1,11 +1,18 @@
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from './Header';
+import Footer from './Footer';
+import '../styles/shop.css';
+import React, { useState, useEffect } from 'react';
 
 const Shop = () => {
+
   return (
     <div>
       <Header />
-      <h1>Hello from Shop</h1>
+      <nav className='nav'>
+        <button>Tents</button>
+        <button>Sleeping</button>
+        <button>Furniture</button>
+      </nav>
       <Footer />
     </div>
   );
