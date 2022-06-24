@@ -1,0 +1,20 @@
+.home .section1 {
+    align-items: flex-end;
+    flex-direction: column;
+    height: 45rem;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative
+}
+
+.section1 > img {
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.section1 > img:hover {
+    transform: scale(1);
+    transition: 1s;
+}
