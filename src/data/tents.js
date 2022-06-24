@@ -1,15 +1,15 @@
-import tent1 from "../images/tents/tent1.jpg";
-import tent2 from "../images/tents/tent2.jpg";
-import tent3 from "../images/tents/tent3.jpg";
-import tent4 from "../images/tents/tent4.jpg";
-import tent5 from "../images/tents/tent5.jpg";
-import tent6 from "../images/tents/tent6.jpg";
-import tent7 from "../images/tents/tent7.jpg";
-import tent8 from "../images/tents/tent8.jpg";
-import tent9 from "../images/tents/tent9.jpg";
-import tent10 from "../images/tents/tent10.jpg";
-import tent11 from "../images/tents/tent11.jpg";
-import tent12 from "../images/tents/tent12.jpg";
+import tent1 from "../images/tents/tent1.png";
+import tent2 from "../images/tents/tent2.png";
+import tent3 from "../images/tents/tent3.png";
+import tent4 from "../images/tents/tent4.png";
+import tent5 from "../images/tents/tent5.png";
+import tent6 from "../images/tents/tent6.png";
+import tent7 from "../images/tents/tent7.png";
+import tent8 from "../images/tents/tent8.png";
+import tent9 from "../images/tents/tent9.png";
+import tent10 from "../images/tents/tent10.png";
+import tent11 from "../images/tents/tent11.png";
+import tent12 from "../images/tents/tent12.png";
 
 const tents = [
   {

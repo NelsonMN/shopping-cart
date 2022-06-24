@@ -12,9 +12,55 @@
     object-fit: cover;
     transform: scale(1.05);
     transition: 1s;
+    min-height: 720px;
 }
 
 .section1 > img:hover {
     transform: scale(1);
     transition: 1s;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    gap: 4rem;
+}
+
+.section2 > h1 {
+    font-weight: 200;
+    letter-spacing: 2.5px;
+}
+
+.section2 .featured-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    width: 100%;
+    align-content: center;
+    justify-items: center;
+}
+
+.featured {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 325px;
+    width: 325px;
+    background-color:rgb(216, 216, 216);
+    transition: .5s;
+    border-radius: 8px;
+}
+
+.featured:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.featured > img {
+    height: 300px;
+    width: 300px;
+
 }

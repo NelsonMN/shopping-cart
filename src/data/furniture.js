@@ -1,15 +1,15 @@
-import furniture1 from "../images/furniture/furniture1.jpg";
-import furniture2 from "../images/furniture/furniture2.jpg";
-import furniture3 from "../images/furniture/furniture3.jpg";
-import furniture4 from "../images/furniture/furniture4.jpg";
-import furniture5 from "../images/furniture/furniture5.jpg";
-import furniture6 from "../images/furniture/furniture6.jpg";
-import furniture7 from "../images/furniture/furniture7.jpg";
-import furniture8 from "../images/furniture/furniture8.jpg";
-import furniture9 from "../images/furniture/furniture9.jpg";
-import furniture10 from "../images/furniture/furniture10.jpg";
-import furniture11 from "../images/furniture/furniture11.jpg";
-import furniture12 from "../images/furniture/furniture12.jpg";
+import furniture1 from "../images/furniture/furniture1.png";
+import furniture2 from "../images/furniture/furniture2.png";
+import furniture3 from "../images/furniture/furniture3.png";
+import furniture4 from "../images/furniture/furniture4.png";
+import furniture5 from "../images/furniture/furniture5.png";
+import furniture6 from "../images/furniture/furniture6.png";
+import furniture7 from "../images/furniture/furniture7.png";
+import furniture8 from "../images/furniture/furniture8.png";
+import furniture9 from "../images/furniture/furniture9.png";
+import furniture10 from "../images/furniture/furniture10.png";
+import furniture11 from "../images/furniture/furniture11.png";
+import furniture12 from "../images/furniture/furniture12.png";
 
 const furniture = [
   {

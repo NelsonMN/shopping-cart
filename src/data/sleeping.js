@@ -1,15 +1,15 @@
-import sleeping1 from "../images/sleeping1.jpg";
-import sleeping2 from "../images/sleeping2.jpg";
-import sleeping3 from "../images/sleeping3.jpg";
-import sleeping4 from "../images/sleeping4.jpg";
-import sleeping5 from "../images/sleeping5.jpg";
-import sleeping6 from "../images/sleeping6.jpg";
-import sleeping7 from "../images/sleeping7.jpg";
-import sleeping8 from "../images/sleeping8.jpg";
-import sleeping9 from "../images/sleeping9.jpg";
-import sleeping10 from "../images/sleeping10.jpg";
-import sleeping11 from "../images/sleeping11.jpg";
-import sleeping12 from "../images/sleeping12.jpg";
+import sleeping1 from "../images/sleeping/sleeping1.png";
+import sleeping2 from "../images/sleeping/sleeping2.png";
+import sleeping3 from "../images/sleeping/sleeping3.png";
+import sleeping4 from "../images/sleeping/sleeping4.png";
+import sleeping5 from "../images/sleeping/sleeping5.png";
+import sleeping6 from "../images/sleeping/sleeping6.png";
+import sleeping7 from "../images/sleeping/sleeping7.png";
+import sleeping8 from "../images/sleeping/sleeping8.png";
+import sleeping9 from "../images/sleeping/sleeping9.png";
+import sleeping10 from "../images/sleeping/sleeping10.png";
+import sleeping11 from "../images/sleeping/sleeping11.png";
+import sleeping12 from "../images/sleeping/sleeping12.png";
 
 const sleeping = [
   {
