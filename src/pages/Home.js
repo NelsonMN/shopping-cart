@@ -1,4 +1,5 @@
 import Header from "./Header";
+import Footer from "./Footer";
 import '../styles/home.css'
 import homeBackground from '../images/home-background.jpg'
 import { Link } from "react-router-dom";
@@ -13,7 +14,11 @@ const Home = () => {
       <Header />
       <div className="home">
         <div className="section1">
-          <img src={homeBackground} alt="home-main"></img>
+          <div className="hero-text">
+            <h1>Rediscover the joy of camping </h1>
+            <button className="shop-button">Shop Now</button>
+          </div>
+          <img src={homeBackground} alt="hero-img"></img>
         </div>
         <div className="section2">
           <h1>Featured Items</h1>
@@ -33,6 +38,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

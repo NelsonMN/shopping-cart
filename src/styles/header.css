@@ -1,5 +1,10 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .header {
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,12 +23,7 @@
 .header > nav {
     display: flex;
     gap: 1.5rem;
-    font-size: 1.25rem;
-}
-
-nav > a {
-    text-decoration: none;
-    color: inherit;
+    font-size: 1.5rem;
 }
 
 .material-symbols-outlined {

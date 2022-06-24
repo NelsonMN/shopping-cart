@@ -4,20 +4,20 @@
     height: 45rem;
     max-width: 100%;
     overflow: hidden;
-    position: relative
+    position: relative;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .section1 > img {
     width: 100%;
     object-fit: cover;
-    transform: scale(1.05);
-    transition: 1s;
     min-height: 720px;
-}
-
-.section1 > img:hover {
-    transform: scale(1);
-    transition: 1s;
 }
 
 .section2 {
@@ -49,18 +49,57 @@
     justify-content: center;
     height: 325px;
     width: 325px;
-    background-color:rgb(216, 216, 216);
+    background-color:rgb(224, 227, 229);
     transition: .5s;
-    border-radius: 8px;
+    cursor: pointer;
 }
 
 .featured:hover {
-    transform: scale(1.1);
+    transform: scale(1.08);
     transition: .5s;
 }
 
 .featured > img {
     height: 300px;
     width: 300px;
+}
 
+.hero-text {
+    margin-top: 8rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 42rem;
+    z-index: 1;
+    padding-right: 5rem;
+}
+
+.hero-text > h1,
+.hero-text > h3 {
+    font-weight: 100;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.hero-text > h1 {
+    font-size: 3rem;
+}
+
+.shop-button {
+    height: 3rem;
+    width: 15rem;
+    font-size: 1.75rem;
+    background: white;
+	border: none;
+	cursor: pointer;
+    box-shadow: 5px 5px 0 0 rgb(88, 203, 88);
+    transition: .5s;
+}
+
+.shop-button:hover {
+    color: white;
+    background: rgb(88, 203, 88);
+    box-shadow: 5px 5px 0 0 white;
+    transition: .5s;
 }
