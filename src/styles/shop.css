@@ -1,12 +1,12 @@
+img {
+    height: 300px;
+    width: 300px;
+}
+
 .nav {
     padding: 1rem 2rem;
     display: flex;
     gap: 1rem;
-}
-
-img {
-    height: 275px;
-    width: 275px;
 }
 
 .nav > button {
@@ -17,16 +17,36 @@ img {
 }
 
 .catalog {
-    padding: 0 8rem;
+    padding: 1rem 15rem 8rem;
     display: grid;
     justify-items: center;
     align-content: center;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
 }
 
 .item {
-    height: 275px;
     width: 275px;
-    background-color: rgb(224, 227, 229);
+}
+
+.item-image {
+    background-color: rgb(233, 237, 241);
+    transition: .5s;
+    cursor: pointer;
+    height: 300px;
+    width: 300px;
+    transform: scale(1.05)
+}
+
+.item-image:hover {
+    transform: scale(1);
+    transition: .5s;
+}
+
+.item-info > h3{
+    font-weight: 200;
+}
+
+.item-info {
+    padding-top: 1rem;
 }

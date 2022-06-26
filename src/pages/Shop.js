@@ -27,7 +27,13 @@ const Display = ({ items }) => {
     {items.map((element) => {
       return (
         <div className='item' key={element.id}>
-          <img src={element.image} alt=''></img>
+          <div className='item-image' >
+            <img src={element.image} alt=''></img>
+          </div>
+          <div className='item-info'>
+            <h3>{element.name}</h3>
+            <h3>${element.price} CAD</h3>
+          </div>
         </div>
       )
     })}
