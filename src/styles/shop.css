@@ -4,9 +4,29 @@
     gap: 1rem;
 }
 
+img {
+    height: 275px;
+    width: 275px;
+}
+
 .nav > button {
     padding: .5rem 1rem;
     font-size: 1rem;
     background-color: white;
     cursor: pointer;
+}
+
+.catalog {
+    padding: 0 8rem;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.item {
+    height: 275px;
+    width: 275px;
+    background-color: rgb(224, 227, 229);
 }

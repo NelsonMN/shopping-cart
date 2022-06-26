@@ -47,8 +47,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 325px;
-    width: 325px;
+    height: 275px;
+    width: 275px;
     background-color:rgb(224, 227, 229);
     transition: .5s;
     cursor: pointer;
@@ -60,8 +60,8 @@
 }
 
 .featured > img {
-    height: 300px;
-    width: 300px;
+    height: 275px;
+    width: 275px;
 }
 
 .hero-text {
