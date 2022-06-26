@@ -5,7 +5,7 @@ import '../styles/shop.css';
 const Shop = ({ getItems, items }) => {
 
   return (
-    <div>
+    <div className='body'>
       <Header />
       <nav className='nav'>
         <button onClick={getItems}>All</button>

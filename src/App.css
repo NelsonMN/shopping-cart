@@ -11,3 +11,8 @@
   -moz-user-drag: none;
   -o-user-drag: none;
 }
+
+.body {
+  min-height: 100vh;
+  position: relative;
+}

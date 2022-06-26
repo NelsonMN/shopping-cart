@@ -8,9 +8,8 @@ import sleeping from '../data/sleeping'
 import tents from '../data/tents'
 
 const Home = () => {
-  console.log(furniture[0].image)
   return (
-    <div>
+    <div className="body">
       <Header />
       <div className="home">
         <div className="section1">
