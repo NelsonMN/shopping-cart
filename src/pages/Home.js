@@ -23,16 +23,16 @@ const Home = () => {
           <h1>Featured Items</h1>
           <div className="featured-items">
             <div className="item-image">
-              <img src={furniture[0].image} alt=''></img>
+              <Link to='/shop/furniture1'><img src={furniture[0].image} alt={furniture[0].name}></img></Link>
             </div>
             <div className="item-image">
-              <img src={sleeping[1].image} alt=''></img>
+              <Link to='/shop/sleeping2'><img src={sleeping[1].image} alt={sleeping[1].name}></img></Link>
             </div>
             <div className="item-image">
-              <img src={tents[6].image} alt=''></img>
+              <Link to='/shop/tent7'><img src={tents[6].image} alt={tents[6].name}></img></Link>
             </div>
             <div className="item-image">
-              <img src={furniture[3].image} alt=''></img>
+              <Link to='/shop/furniture4'><img src={furniture[3].image} alt={furniture[3].name}></img></Link>
             </div>
           </div>
         </div>
