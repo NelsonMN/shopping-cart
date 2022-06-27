@@ -4,7 +4,7 @@ import '../styles/itemDetail.css'
 
 import all from "../data/all";
 
-const ItemDetail = ({ cart, setCart }) => {
+const ItemDetail = ({ setCart, setTotal }) => {
   
   let { id } = useParams();
   
@@ -16,8 +16,8 @@ const ItemDetail = ({ cart, setCart }) => {
     
     for (let i = 0; i < count; i++) {
       setCart(c => c.concat(previewItem))
+      setTotal(t => (Math.round(t + previewItem[0].price * 100) / 100))
     }
-
   }
 
   const handleDecrement = () => {
@@ -34,9 +34,6 @@ const ItemDetail = ({ cart, setCart }) => {
     const previewItem = all.filter((item) => item.id === id)
     setItem(previewItem[0])
   }, [id])
-
-
-
 
 
   return (

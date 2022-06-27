@@ -28,8 +28,8 @@ const RouteSwitch = () => {
         <Routes>
           <Route path='/' element={<App total={total}/>} />
           <Route path='/shop' element={<Shop items={items} getItems={getItems} />} />
-          <Route path='/shop/:id' element={<ItemDetail cart={cart} setCart={setCart} total={total} setTotal={setTotal}/>} />
-          <Route path='/cart' element={<Cart />} />
+          <Route path='/shop/:id' element={<ItemDetail setCart={setCart} setTotal={setTotal} />} />
+          <Route path='/cart' element={<Cart cart={cart} setCart={setCart} total={total} setTotal={setTotal} />} />
         </Routes>
         <Footer />
       </BrowserRouter>

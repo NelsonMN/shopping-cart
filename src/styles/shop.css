@@ -50,7 +50,7 @@ h3 {
     height: 300px;
     width: 300px;
     transform: scale(1.05);
-    box-shadow: 0 0 30px 10px rgb(206, 206, 206);
+    box-shadow: 0 0 30px 5px rgb(206, 206, 206);
 }
 
 .item-image:hover {
@@ -64,24 +64,4 @@ h3 {
 
 .item-info {
     padding-top: 1rem;
-}
-
-.counter > * {
-    height: 50px;
-    width: 50px;
-}
-
-.counter {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.count {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    background: white;
 }

@@ -53,3 +53,23 @@ h2 {
   display: flex;
   box-shadow: 0 0 30px 10px rgb(206, 206, 206);
 }
+
+.counter > * {
+  height: 50px;
+  width: 50px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background: white;
+}
