@@ -1,7 +1,6 @@
 .home .section1 {
     align-items: flex-end;
     flex-direction: column;
-    height: 45rem;
     max-width: 100%;
     overflow: hidden;
     position: relative;
@@ -26,19 +25,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 4rem;
     gap: 4rem;
-}
-
-.section2::before {
-    content: "";
-    position: absolute;
-    background-image: url('../images/background.jpeg');
-    opacity: 0.5;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
 }
 
 .section2 > h1 {
@@ -115,4 +103,10 @@
     background: rgb(88, 203, 88);
     box-shadow: 5px 5px 0 0 white;
     transition: .5s;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }

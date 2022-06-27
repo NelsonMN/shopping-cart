@@ -12,7 +12,9 @@
   -o-user-drag: none;
 }
 
-.body {
+#root {
+  display: flex;
+  flex-direction: column;
+  background-image: url('./images/background.jpeg');
   min-height: 100vh;
-  position: relative;
 }

@@ -5,6 +5,8 @@ import Shop from "./Shop";
 import Cart from './Cart';
 import ItemDetail from './ItemDetail';
 import all from '../data/all';
+import Header from "./Header";
+import Footer from "./Footer";
 
 const RouteSwitch = () => {
   const [items, setItems] = useState(all)
@@ -21,14 +23,16 @@ const RouteSwitch = () => {
   };
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<App />} />
-        <Route path='/shop' element={<Shop items={items} getItems={getItems} />} />
-        <Route path='/shop/:id' element={<ItemDetail />} />
-        <Route path='/cart' element={<Cart />} />
-      </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Header cart={cart.length}/>
+        <Routes>
+          <Route path='/' element={<App total={total}/>} />
+          <Route path='/shop' element={<Shop items={items} getItems={getItems} />} />
+          <Route path='/shop/:id' element={<ItemDetail cart={cart} setCart={setCart} total={total} setTotal={setTotal}/>} />
+          <Route path='/cart' element={<Cart />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
   );
 };
 

@@ -10,9 +10,9 @@ h2 {
 }
 
 .item-page {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 
 .item-nav {
@@ -24,21 +24,8 @@ h2 {
 .item-showcase {
   display: flex;
   justify-content: center;
-  gap: 2rem;
-  flex: 1;
   align-items: center;
-  margin-bottom: 15rem;
-}
-
-.item-showcase::before {
-  content: "";
-  position: absolute;
-  background-image: url('../images/background.jpeg');
-  opacity: 0.5;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
+  margin-top: 15rem;
 }
 
 .preview-image {
@@ -49,12 +36,20 @@ h2 {
 }
 
 .preview-details {
+  padding: 0 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
   width: 18rem;
   position: relative;
-  height: 475px;
+  height: 500px;
+  background-color: rgb(253, 253, 253);
+  width: 500px;
+  align-items: center;
 }
 
+.item-holder {
+  display: flex;
+  box-shadow: 0 0 30px 10px rgb(206, 206, 206);
+}

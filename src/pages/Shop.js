@@ -1,5 +1,3 @@
-import Header from './Header';
-import Footer from './Footer';
 import { Link } from 'react-router-dom';
 import '../styles/shop.css';
 
@@ -16,35 +14,30 @@ const Shop = ({ getItems, items }) => {
   }
 
   return (
-    <div className='body'>
-      <Header />
-      <div className='shop-content'>
-        <nav className='nav'>
-          <button className='category active' onClick={(e) => {
-            getItems(e)
-            toggleActive(e)}}>
-            All
-          </button>
-          <button className='category' onClick={(e) => {
-            getItems(e)
-            toggleActive(e)}}>
-            Tents
-          </button>
-          <button className='category' onClick={(e) => {
-            getItems(e)
-            toggleActive(e)}}>
-            Sleeping
-          </button>
-          <button className='category' onClick={(e) => {
-            getItems(e)
-            toggleActive(e)}}>
-            Furniture
-          </button>
-        </nav>
-        <Display items={items} />
-      </div>
-
-      <Footer />
+    <div className='shop-content'>
+      <nav className='nav'>
+        <button className='category active' onClick={(e) => {
+          getItems(e)
+          toggleActive(e)}}>
+          All
+        </button>
+        <button className='category' onClick={(e) => {
+          getItems(e)
+          toggleActive(e)}}>
+          Tents
+        </button>
+        <button className='category' onClick={(e) => {
+          getItems(e)
+          toggleActive(e)}}>
+          Sleeping
+        </button>
+        <button className='category' onClick={(e) => {
+          getItems(e)
+          toggleActive(e)}}>
+          Furniture
+        </button>
+      </nav>
+      <Display items={items} />
     </div>
   );
 };

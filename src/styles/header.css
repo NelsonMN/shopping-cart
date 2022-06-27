@@ -24,6 +24,7 @@ a {
     display: flex;
     gap: 1.5rem;
     font-size: 1.5rem;
+    align-items: center;
 }
 
 .material-symbols-outlined {
@@ -34,3 +35,12 @@ a {
   'opsz' 48;
 }
 
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-count {
+    font-size: 1.25rem;
+}
