@@ -3,7 +3,8 @@ import React, { useState, useEffect } from "react";
 import App from "../App";
 import Shop from "./Shop";
 import Cart from './Cart';
-import all from '../data/all'
+import ItemDetail from './ItemDetail';
+import all from '../data/all';
 
 const RouteSwitch = () => {
   const [items, setItems] = useState(all)
@@ -16,7 +17,6 @@ const RouteSwitch = () => {
     } else {
       const items = all.filter((item) => item.category === e.target.textContent.toLowerCase())
       setItems(items)
-      console.log(items)
     }
   };
 
@@ -25,6 +25,7 @@ const RouteSwitch = () => {
       <Routes>
         <Route path='/' element={<App />} />
         <Route path='/shop' element={<Shop items={items} getItems={getItems} />} />
+        <Route path='/shop/:id' element={<ItemDetail />} />
         <Route path='/cart' element={<Cart />} />
       </Routes>
     </BrowserRouter>

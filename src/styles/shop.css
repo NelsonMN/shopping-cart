@@ -9,11 +9,12 @@ img {
     gap: 1rem;
 }
 
-.nav > button {
+.category {
     padding: .5rem 1rem;
     font-size: 1rem;
     background-color: white;
     cursor: pointer;
+    position: relative;
 }
 
 .catalog {
@@ -25,17 +26,37 @@ img {
     gap: 2rem;
 }
 
+h3 {
+    position: relative;
+}
+
+.shop-content::before {
+    content: "";
+    position: absolute;
+    background-image: url('../images/background.jpeg');
+    opacity: 0.5;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
 .item {
     width: 275px;
 }
 
 .item-image {
-    background-color: rgb(233, 237, 241);
+    background-color: rgb(231, 231, 232);
     transition: .5s;
     cursor: pointer;
     height: 300px;
     width: 300px;
-    transform: scale(1.05)
+    transform: scale(1.05);
 }
 
 .item-image:hover {
