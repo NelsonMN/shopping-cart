@@ -19,16 +19,19 @@ const Cart = ({ cart, setCart, total, setTotal }) => {
 
 const EmptyCart = ({ cart, total }) => {
   return (
-    <div className='cart-page'>
-      <h1>I am empty!</h1>
-      <h1>${total} CAD</h1>
+    <div className='empty-cart-page'>
+      <div className='empty-box'>
+        <h2>Your cart is empty</h2>
+        <h2>Fill it up with for your next adventure!</h2>
+        <button>Shop</button>
+      </div>
     </div>
   )
 }
 
 const NonEmptyCart = ({ cart, total }) => {
   return (
-    <div className='cart-page'>
+    <div className='nonempty-cart-page'>
       <h1>I am not empty!</h1>
       {cart.map(element => { 
         return <h1>{element.name}</h1>

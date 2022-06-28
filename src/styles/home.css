@@ -94,13 +94,13 @@
     background: white;
 	border: none;
 	cursor: pointer;
-    box-shadow: 5px 5px 0 0 rgb(88, 203, 88);
+    box-shadow: 5px 5px 0 0 rgb(255, 151, 54);
     transition: .5s;
 }
 
 .shop-button:hover {
     color: white;
-    background: rgb(88, 203, 88);
+    background: rgb(255, 151, 54);;
     box-shadow: 5px 5px 0 0 white;
     transition: .5s;
 }

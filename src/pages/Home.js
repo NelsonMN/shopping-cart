@@ -18,17 +18,41 @@ const Home = () => {
       <div className="section2">
         <h1>Featured Items</h1>
         <div className="featured-items">
-          <div className="item-image">
-            <Link to='/shop/furniture1'><img src={furniture[0].image} alt={furniture[0].name}></img></Link>
+          <div className="item">
+            <Link to='/shop/furniture1'>
+              <img className='item-image' src={furniture[0].image} alt={furniture[0].name}></img>
+              <div className='item-info'>
+                <h3>{furniture[0].name}</h3>
+                <h3>${furniture[0].price} CAD</h3>
+              </div>
+            </Link>
           </div>
-          <div className="item-image">
-            <Link to='/shop/sleeping2'><img src={sleeping[1].image} alt={sleeping[1].name}></img></Link>
+          <div className="item">
+            <Link to='/shop/sleeping2'>
+              <img className='item-image' src={sleeping[1].image} alt={sleeping[1].name}></img>
+              <div className='item-info'>
+                <h3>{sleeping[1].name}</h3>
+                <h3>${sleeping[1].price} CAD</h3>
+              </div>
+            </Link>
           </div>
-          <div className="item-image">
-            <Link to='/shop/tent7'><img src={tents[6].image} alt={tents[6].name}></img></Link>
+          <div className="item">
+            <Link to='/shop/tent7'>
+              <img className='item-image' src={tents[6].image} alt={tents[6].name}></img>
+              <div className='item-info'>
+                <h3>{tents[6].name}</h3>
+                <h3>${tents[6].price} CAD</h3>
+              </div>
+            </Link>
           </div>
-          <div className="item-image">
-            <Link to='/shop/furniture4'><img src={furniture[3].image} alt={furniture[3].name}></img></Link>
+          <div className="item">
+            <Link to='/shop/furniture4'>
+              <img className='item-image' src={furniture[3].image} alt={furniture[3].name}></img>
+              <div className='item-info'>
+                <h3>{furniture[3].name}</h3>
+                <h3>${furniture[3].price} CAD</h3>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
