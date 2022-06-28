@@ -170,3 +170,67 @@ button {
       color: black;
     }
   }
+
+  .black {
+    -webkit-animation-name: toBlack;
+    -ms-animation-name: toblack;
+    -ms-animation-duration: 1000ms;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+    -ms-animation-timing-function: ease-in-out;
+  }
+    @-webkit-keyframes toBlack {
+    0% {
+      background-color: rgb(255, 136, 0);
+    }
+    25% {
+      background-color: black;
+    }
+    50% {
+      background-color: black;
+    }
+    75% {
+      background-color: black;
+    }
+    100% {
+      background-color: rgb(255, 136, 0);
+    }
+    }
+    
+    @-ms-keyframes toBlack {
+    0% {
+      background-color: rgb(255, 136, 0);
+    }
+    25% {
+      background-color: black;
+    }
+    50% {
+      background-color: black;
+    }
+    75% {
+      background-color: black;
+    }
+    100% {
+      background-color: rgb(255, 136, 0);
+    }
+    }
+    
+    @keyframes toBlack {
+      0% {
+        background-color: rgb(255, 136, 0);
+      }
+      25% {
+        background-color: black;
+      }
+      50% {
+        background-color: black;
+      }
+      75% {
+        background-color: black;
+      }
+      100% {
+        background-color: rgb(255, 136, 0);
+      }
+    }

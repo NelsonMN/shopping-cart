@@ -6,8 +6,8 @@ const Header = ({ numItems }) => {
     <div className="header">
       <h1><Link to='/'>Campify</Link></h1>
       <nav>
-        <Link to='/'>Home</Link>
-        <Link to='/shop'>Shop</Link>
+        <Link className="hov" to='/'>Home</Link>
+        <Link className="hov" to='/shop'>Shop</Link>
         <Link className="cart" to='/cart'><span className="material-symbols-outlined">shopping_bag</span><span className="cart-count">{numItems}</span></Link>
       </nav>
     </div>

@@ -31,9 +31,13 @@ const ItemDetail = ({ cart, setCart, setTotal, setNumItems }) => {
   
   const addAnimation = () => {
     const cartDiv = document.querySelector('.cart');
+    const numDiv = document.querySelector('.cart-count');
     if (quantity > 0) {
+      numDiv.classList.remove('black')
       cartDiv.classList.remove('wiggle')
+      void numDiv.offsetWidth
       void cartDiv.offsetWidth;
+      numDiv.classList.add('black')
       cartDiv.classList.add('wiggle')
     }
   }
