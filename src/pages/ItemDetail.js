@@ -4,37 +4,44 @@ import '../styles/itemDetail.css'
 
 import all from "../data/all";
 
-const ItemDetail = ({ setCart, setTotal }) => {
+const ItemDetail = ({ cart, setCart, setTotal, setNumItems }) => {
   
   let { id } = useParams();
   
-  const [item, setItem] = useState([])
-  const [count, setCount] = useState(0)
+  const [item, setItem] = useState([]);
+  const [quantity, setQuantity] = useState(1);
 
   const addToCart = () => {
-    const previewItem = all.filter((item) => item.id === id)
-    const cart = document.querySelector('.cart')
+    const cartDiv = document.querySelector('.cart')
+    const id = item.id
     
-    if (count > 0) {
-      cart.classList.remove('wiggle')
-      void cart.offsetWidth; // trigger reflow
-      cart.classList.add('wiggle')
+    
+    if (quantity > 0) {
+      cartDiv.classList.remove('wiggle')
+      void cartDiv.offsetWidth;
+      cartDiv.classList.add('wiggle')
+      setCart(c => c.concat({item, quantity, id}))
+      setTotal(t => t + (item.price * quantity))
+      setNumItems(n => n + quantity)
     }
-    
-    for (let i = 0; i < count; i++) {
-      setCart(c => c.concat(previewItem))
-      setTotal(t => (Math.round(t + previewItem[0].price * 100) / 100))
+
+    for (let i = 0; i < cart.length; i++) {
+      if (cart[i].id === id) {
+        const cartClone = [...cart]
+        cartClone[i].quantity += quantity
+        setCart(cartClone)
+      }
     }
   }
 
   const handleDecrement = () => {
-    if (count > 0) {
-      setCount(c => c - 1)
+    if (quantity > 0) {
+      setQuantity(c => c - 1)
     }
   }
 
   const handleIncrement = () => {
-    setCount(c => c + 1)
+    setQuantity(c => c + 1)
   }
   
   useEffect(() => {
@@ -57,7 +64,7 @@ const ItemDetail = ({ setCart, setTotal }) => {
           
           <div className="counter">
             <button onClick={handleDecrement}>-</button>
-            <div className="count">{count}</div>
+            <div className="count">{quantity}</div>
             <button onClick={handleIncrement}>+</button>
           </div>
 

@@ -92,7 +92,7 @@ button {
 }
 
 
-.wiggle{
+.wiggle {
   -webkit-animation-name: wiggle;
   -ms-animation-name: wiggle;
   -ms-animation-duration: 1000ms;

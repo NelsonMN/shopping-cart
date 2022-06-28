@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../styles/cart-page.css'
 
 const Cart = ({ cart, setCart, total, setTotal }) => {
@@ -23,7 +24,7 @@ const EmptyCart = ({ cart, total }) => {
       <div className='empty-box'>
         <h2>Your cart is empty</h2>
         <h2>Fill it up with for your next adventure!</h2>
-        <button>Shop</button>
+        <Link to='/shop'><button>Shop</button></Link>
       </div>
     </div>
   )

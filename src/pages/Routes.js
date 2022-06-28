@@ -9,8 +9,9 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 const RouteSwitch = () => {
-  const [items, setItems] = useState(all)
+  const [items, setItems] = useState(all);
   const [cart, setCart] = useState([]);
+  const [numItems, setNumItems] = useState(0);
   const [total, setTotal] = useState(0);
 
   const getItems = (e) => {
@@ -24,11 +25,11 @@ const RouteSwitch = () => {
 
   return (
       <BrowserRouter>
-        <Header cart={cart.length}/>
+        <Header numItems={numItems}/>
         <Routes>
           <Route path='/' element={<App total={total}/>} />
           <Route path='/shop' element={<Shop items={items} getItems={getItems} />} />
-          <Route path='/shop/:id' element={<ItemDetail setCart={setCart} setTotal={setTotal} />} />
+          <Route path='/shop/:id' element={<ItemDetail setNumItems={setNumItems} cart={cart} setCart={setCart} setTotal={setTotal} />} />
           <Route path='/cart' element={<Cart cart={cart} setCart={setCart} total={total} setTotal={setTotal} />} />
         </Routes>
         <Footer />
