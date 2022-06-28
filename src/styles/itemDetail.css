@@ -63,6 +63,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 5px;
 }
 
 .count {
@@ -73,3 +74,99 @@ h2 {
   border-bottom: 1px solid black;
   background: white;
 }
+
+button {
+  transition: 0.5s;
+}
+
+.add:hover,
+.item-nav > a > button:hover {
+  background-color: black;
+  color: white;
+  transition: .5s;
+}
+
+.item-nav > a > button,
+.add {
+  border-radius: 5px;
+}
+
+
+.wiggle{
+  -webkit-animation-name: wiggle;
+  -ms-animation-name: wiggle;
+  -ms-animation-duration: 1000ms;
+  -webkit-animation-duration: 1000ms;
+  -webkit-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+}
+  @-webkit-keyframes wiggle {
+  0% {
+    -webkit-transform: rotate(10deg);
+    background-color: black;
+  }
+  25% {
+    -webkit-transform: rotate(-10deg);
+    background-color: rgb(255, 136, 0);
+  }
+  50% {
+    -webkit-transform: rotate(20deg);
+    color: rgb(255, 136, 0);
+  }
+  75% {
+    -webkit-transform: rotate(-5deg);
+    color: rgb(255, 136, 0);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    color: black;
+  }
+  }
+  
+  @-ms-keyframes wiggle {
+  0% {
+    -ms-transform: rotate(1deg);
+    color: black;
+  }
+  25% {
+    -ms-transform: rotate(-1deg);
+    color: rgb(255, 136, 0);
+  }
+  50% {
+    -ms-transform: rotate(1.5deg);
+    color: rgb(255, 136, 0);
+  }
+  75% {
+    -ms-transform: rotate(-5deg);
+    color: rgb(255, 136, 0);
+  }
+  100% {
+    -ms-transform: rotate(0deg);
+    color: black;
+  }
+  }
+  
+  @keyframes wiggle {
+    0% {
+      transform: rotate(10deg);
+      color: black;
+    }
+    25% {
+      transform: rotate(-10deg);
+      color: rgb(255, 136, 0);
+    }
+    50% {
+      transform: rotate(20deg);
+      color: rgb(255, 136, 0);
+    }
+    75% {
+      transform: rotate(-5deg);
+      color: rgb(255, 136, 0);
+    }
+    100% {
+      transform: rotate(0deg);
+      color: black;
+    }
+  }

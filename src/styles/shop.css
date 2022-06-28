@@ -16,6 +16,7 @@ img {
     cursor: pointer;
     position: relative;
     transition: .5s;
+    border-radius: 5px;
 }
 
 .category:hover {

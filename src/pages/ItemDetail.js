@@ -13,6 +13,13 @@ const ItemDetail = ({ setCart, setTotal }) => {
 
   const addToCart = () => {
     const previewItem = all.filter((item) => item.id === id)
+    const cart = document.querySelector('.cart')
+    
+    if (count > 0) {
+      cart.classList.remove('wiggle')
+      void cart.offsetWidth; // trigger reflow
+      cart.classList.add('wiggle')
+    }
     
     for (let i = 0; i < count; i++) {
       setCart(c => c.concat(previewItem))
@@ -54,7 +61,7 @@ const ItemDetail = ({ setCart, setTotal }) => {
             <button onClick={handleIncrement}>+</button>
           </div>
 
-          <button onClick={addToCart}>Add to cart</button>
+          <button className="add" onClick={addToCart}>Add to cart</button>
         </div> 
         </div>
       </div>
