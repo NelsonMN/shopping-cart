@@ -12,14 +12,9 @@ const ItemDetail = ({ cart, setCart, setTotal, setNumItems }) => {
   const [quantity, setQuantity] = useState(1);
 
   const addToCart = () => {
-    const cartDiv = document.querySelector('.cart')
-    const id = item.id
-    
-    
+    const id = item.id;
+
     if (quantity > 0) {
-      cartDiv.classList.remove('wiggle')
-      void cartDiv.offsetWidth;
-      cartDiv.classList.add('wiggle')
       setCart(c => c.concat({item, quantity, id}))
       setTotal(t => t + (item.price * quantity))
       setNumItems(n => n + quantity)
@@ -31,6 +26,15 @@ const ItemDetail = ({ cart, setCart, setTotal, setNumItems }) => {
         cartClone[i].quantity += quantity
         setCart(cartClone)
       }
+    }
+  }
+  
+  const addAnimation = () => {
+    const cartDiv = document.querySelector('.cart');
+    if (quantity > 0) {
+      cartDiv.classList.remove('wiggle')
+      void cartDiv.offsetWidth;
+      cartDiv.classList.add('wiggle')
     }
   }
 
@@ -68,7 +72,12 @@ const ItemDetail = ({ cart, setCart, setTotal, setNumItems }) => {
             <button onClick={handleIncrement}>+</button>
           </div>
 
-          <button className="add" onClick={addToCart}>Add to cart</button>
+          <button className="add" onClick={() => {
+            addToCart()
+            addAnimation()
+            }}>
+              Add to cart
+          </button>
         </div> 
         </div>
       </div>

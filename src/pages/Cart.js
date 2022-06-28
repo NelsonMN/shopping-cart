@@ -35,7 +35,12 @@ const NonEmptyCart = ({ cart, total }) => {
     <div className='nonempty-cart-page'>
       <h1>I am not empty!</h1>
       {cart.map(element => { 
-        return <h1>{element.name}</h1>
+        return (
+          <div>
+            <h1>{element.item.name}</h1>
+            <h2>{element.quantity}</h2>
+          </div>
+        )
       })}
       <h1>${total} CAD</h1>
     </div>
