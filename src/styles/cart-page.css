@@ -23,7 +23,7 @@
     align-items: center;
     flex-direction: column;
     gap: 1.75rem;
-    box-shadow: 0 0 30px 10px rgb(206, 206, 206);
+    box-shadow: 0 0 30px 7px rgb(206, 206, 206);
 }
 
 .empty-box > a > button {
@@ -35,7 +35,7 @@
 	cursor: pointer;
     transition: .5s;
     color: white;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .empty-box > a > button:hover {
@@ -65,9 +65,13 @@
 }
 
 .cart-item-holder {
-    background-color: white;
-    box-shadow: 0 0 20px 10px rgb(206, 206, 206);
-
+    background-color: rgb(239, 239, 239);
+    box-shadow: 0 0 30px 7px rgb(206, 206, 206);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
 }
 
 .cart-item {
@@ -75,12 +79,12 @@
     align-items: center;
     justify-content: space-between;
     gap: 2.5rem;
-    background-color: white;
+    background-color: rgb(239, 239, 239);
     padding: 1.5rem;
     width: 100%;
 }
 
-.cart-item > img {
+.cart-link > img {
     height: 150px;
     width: 150px;
     background-color: rgb(239, 239, 239);
@@ -90,20 +94,75 @@
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
-    width: 25%;
+    width: 200px;
 }
 
 .cart-item-details > h3 {
     font-weight: 400;
 }
 
-.remove-item {
+.remove-item,
+.check-out {
+    color: white;
+    background-color:rgb(255, 151, 54);
     border-radius: 5px;
     transition: 0.5s;
+    border: none;
+    opacity: 0.8;
+}
+
+.remove-item {
+    padding: 0.6rem 0.5rem;
 }
 
 .remove-item:hover {
+    opacity: 1;
     transition: 0.5s;
-    background-color: black;
+}
+
+.total {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding:  0 1.5rem 1.5rem;
+}
+
+.total > h1 {
+    font-size: 1.5rem;
+    border-top: 1px solid black; 
+    padding-top: 1rem;
+}
+
+.sub-total:nth-child(2) {
+    margin-top: .75rem;
+}
+
+.sub-total:nth-child(3) {
+    border-bottom: 1px solid black;
+    padding-bottom: .75rem;
+}
+
+.sub-total:nth-child(4) {
+    padding-top: .75rem;
+}
+
+.sub-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: .8rem;
+}
+
+.check-out {
+    width: 40%;
+    background-color:rgb(255, 151, 54);
+    opacity: 0.8;
+    border: none;
     color: white;
+    padding: .75rem 0;
+    transition: 0.5s;
+    font-weight: bold
+}
+.check-out:hover {
+    opacity: 1;
+    transition: 0.5s;
 }

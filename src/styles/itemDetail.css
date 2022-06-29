@@ -1,8 +1,8 @@
 button {
-  padding: 0.5rem 1rem;
   font-size: 1rem;
   background-color: white;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 h2 {
@@ -49,14 +49,27 @@ h2 {
   align-items: center;
 }
 
+.preview-details > h1 {
+  font-weight: 100;
+}
+
 .item-holder {
   display: flex;
   box-shadow: 0 0 30px 10px rgb(206, 206, 206);
 }
 
-.counter > * {
-  height: 50px;
-  width: 50px;
+.counter > button {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(255, 136, 0);
+  opacity: 0.8;
+  border: none;
+  font-weight: bold;
+  color: white;
+}
+
+.counter > button:hover {
+  opacity: 1;
 }
 
 .counter {
@@ -64,31 +77,35 @@ h2 {
   align-items: center;
   justify-content: center;
   border-radius: 5px;
+  border: none;
 }
 
 .count {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  background: white;
+  background: rgb(252, 220, 184);
+  color: rgb(255, 128, 0);
+  height: 40px;
+  width: 40px;
 }
 
-button {
-  transition: 0.5s;
-}
 
 .add:hover,
 .item-nav > a > button:hover {
-  background-color: black;
-  color: white;
+  background-color:rgb(255, 136, 0);
   transition: .5s;
+  opacity: 1;
 }
 
 .item-nav > a > button,
 .add {
   border-radius: 5px;
+  padding: 0.6rem 1rem;
+  border: none;
+  background-color: rgb(255, 136, 0);
+  opacity: 0.8;
+  color: white;
 }
 
 

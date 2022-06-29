@@ -12,15 +12,16 @@ img {
 .category {
     padding: .5rem 1rem;
     font-size: 1rem;
-    background-color: white;
+    background-color: rgb(245, 210, 170);
     cursor: pointer;
     position: relative;
     transition: .5s;
     border-radius: 5px;
+    border: none;
 }
 
 .category:hover {
-    background-color: black;
+    background-color: rgb(255, 136, 0);;
     color: white;
     transition: .5s;
 }
@@ -39,7 +40,7 @@ h3 {
 }
 
 .active {
-    background-color: black;
+    background-color: rgb(255, 136, 0);
     color: white;
 }
 
@@ -64,7 +65,6 @@ h3 {
     cursor: pointer;
     height: 300px;
     width: 300px;
-    /* box-shadow: 0 0 15px 5px rgb(206, 206, 206); */
 }
 
 .item-info > h3{
