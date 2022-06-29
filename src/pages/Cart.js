@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../styles/cart-page.css';
-import '../images/credit-card-logos.png';
+import creditLogo from '../images/credit-card-logos.png';
 
 const Cart = ({ numItems, setNumItems, cart, setCart, total, setTotal }) => {
 
@@ -85,7 +85,7 @@ const CartHolder = ({ cart, setCart, setNumItems, total, setTotal }) => {
         })}
       <Total total={total} />
       <button className='check-out'>Check Out</button>
-      <img src='../src/images/credit-card-logos.png' alt='credit-card-logos'></img>
+      <img className='credit-logo' src={creditLogo} alt='credit-card-logos'></img>
     </div>
   ) 
 }

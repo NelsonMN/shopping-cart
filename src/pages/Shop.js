@@ -51,7 +51,7 @@ const Display = ({ items }) => {
         return (
           <div className='item' key={element.id}>
             <div className='item-image' >
-              <Link to={`/shop/${element.id}`}><img src={element.image} alt=''></img></Link>
+              <Link to={`/shop/${element.id}`}><img className='img' src={element.image} alt=''></img></Link>
             </div>
             <div className='item-info'>
               <h3>{element.name}</h3>
