@@ -25,23 +25,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4rem;
-    gap: 4rem;
+    padding: 1.5rem;
+    gap: 2rem;
 }
 
 .section2 > h1 {
     font-weight: 200;
-    letter-spacing: 2.5px;
+    letter-spacing: 2px;
     position: relative;
+    font-size: 1.75rem;
 }
 
-.section2 .featured-items {
+
+.featured-items {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
-    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
     align-content: center;
     justify-items: center;
+    width: 100%
 }
 
 .featured {
@@ -84,13 +85,13 @@
 }
 
 .hero-text > h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .shop-button {
-    height: 3rem;
-    width: 15rem;
-    font-size: 1.75rem;
+    height: 2.5rem;
+    width: 12rem;
+    font-size: 1.35rem;
     background: white;
 	border: none;
 	cursor: pointer;

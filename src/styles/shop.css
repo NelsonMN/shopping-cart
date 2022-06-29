@@ -63,17 +63,18 @@ h3 {
     background-color: rgb(239, 239, 239);
     transition: .5s;
     cursor: pointer;
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
 }
 
-.item-info > h3{
+.item-info > h3 {
     font-weight: 200;
+    font-size: 1rem;
 }
 
 .item-info {
     padding: 1rem;
-    width: 300px;
+    width: 200px;
     text-align: center;
 }
 
