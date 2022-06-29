@@ -75,6 +75,7 @@
     max-width: 42rem;
     z-index: 2;
     padding-right: 5rem;
+    width: 500px;
 }
 
 .hero-text > h1,
