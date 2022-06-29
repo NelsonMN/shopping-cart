@@ -27,15 +27,16 @@
 }
 
 .empty-box > a > button {
-    height: 2.5rem;
+    height: 2.25rem;
     width: 12rem;
-    font-size: 1.75rem;
+    font-size: 1.125rem;
     background: rgb(255, 151, 54);
 	border: none;
 	cursor: pointer;
     transition: .5s;
     color: white;
     opacity: 0.8;
+    border-radius: 5px;
 }
 
 .empty-box > a > button:hover {
@@ -113,7 +114,8 @@
 }
 
 .remove-item {
-    padding: 0.3rem 0;
+    padding: 0.4rem 0;
+    font-size: 1.125;
 }
 
 .remove-item:hover {
@@ -129,7 +131,7 @@
 }
 
 .total > h1 {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     border-top: 1px solid black; 
     padding-top: 1rem;
 }
@@ -176,5 +178,9 @@
 
 .light {
     font-weight: 100;
-    font-size: 1.255rem;
+    font-size: 1.125rem;
+}
+
+.total-amount {
+    font-size: 1.125rem;
 }
