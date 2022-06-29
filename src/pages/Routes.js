@@ -27,7 +27,7 @@ const RouteSwitch = () => {
       <BrowserRouter>
         <Header numItems={numItems}/>
         <Routes>
-          <Route path='/' element={<App total={total}/>} />
+          <Route path='/#' element={<App total={total}/>} />
           <Route path='/shop' element={<Shop items={items} getItems={getItems} />} />
           <Route path='/shop/:id' element={<ItemDetail setNumItems={setNumItems} cart={cart} setCart={setCart} setTotal={setTotal} />} />
           <Route path='/cart' element={<Cart cart={cart} numItems={numItems} setNumItems={setNumItems} setCart={setCart} total={total} setTotal={setTotal} />} />
