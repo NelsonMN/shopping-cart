@@ -26,8 +26,8 @@ button {
 
 .preview-image {
   background-color: rgb(233, 237, 241);
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
   position: relative;
 }
 
@@ -39,18 +39,20 @@ button {
   gap: 1rem;
   width: 18rem;
   position: relative;
-  height: 500px;
+  height: 400px;
   background-color: rgb(253, 253, 253);
-  width: 500px;
+  width: 400px;
   align-items: center;
 }
 
 .preview-details > h1 {
   font-weight: 100;
+  font-size: 1.5rem;
 }
 
 .preview-details > h2 {
   font-weight: 100;
+  font-size: 1.25rem;
 }
 
 .item-holder {
@@ -59,8 +61,8 @@ button {
 }
 
 .counter > button {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   background-color: rgb(255, 136, 0);
   opacity: 0.8;
   border: none;
@@ -86,8 +88,8 @@ button {
   align-items: center;
   background: rgb(252, 220, 184);
   color: rgb(255, 128, 0);
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 
 

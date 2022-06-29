@@ -54,7 +54,7 @@
 
 .nonempty-cart-page > h1 {
     font-weight: 100;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 
 .cart-items {
@@ -99,6 +99,7 @@
 
 .cart-item-details > h3 {
     font-weight: 400;
+    font-size: 1.125rem
 }
 
 .remove-item,
@@ -112,7 +113,7 @@
 }
 
 .remove-item {
-    padding: 0.6rem 0.5rem;
+    padding: 0.3rem 0;
 }
 
 .remove-item:hover {
@@ -128,28 +129,28 @@
 }
 
 .total > h1 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     border-top: 1px solid black; 
     padding-top: 1rem;
 }
 
 .sub-total:nth-child(2) {
-    margin-top: .75rem;
+    margin-top: .65rem;
 }
 
 .sub-total:nth-child(3) {
     border-bottom: 1px solid black;
-    padding-bottom: .75rem;
+    padding-bottom: .65rem;
 }
 
 .sub-total:nth-child(4) {
-    margin-top: .75rem;
+    margin-top: .65rem;
 }
 
 .sub-total {
     display: flex;
     justify-content: space-between;
-    font-size: .8rem;
+    font-size: .7rem;
 }
 
 .check-out {
@@ -159,7 +160,7 @@
     color: white;
     padding: .75rem 0;
     transition: 0.5s;
-    padding: .7rem 4rem;
+    padding: .5rem 3rem;
 }
 .check-out:hover {
     opacity: 1;
@@ -168,7 +169,7 @@
 
 .credit-logo {
     padding-top: 1rem;
-    width: 250px;
+    width: 210px;
     align-self: flex-start;
     padding-left: 1.5rem;
 }
