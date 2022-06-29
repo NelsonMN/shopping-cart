@@ -12,8 +12,8 @@
 }
 
 .empty-cart-page > div {
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     background-color: rgb(239, 239, 239);
 }
 
@@ -27,8 +27,8 @@
 }
 
 .empty-box > a > button {
-    height: 3rem;
-    width: 15rem;
+    height: 2.5rem;
+    width: 12rem;
     font-size: 1.75rem;
     background: rgb(255, 151, 54);
 	border: none;
@@ -176,4 +176,5 @@
 
 .light {
     font-weight: 100;
+    font-size: 1.255rem;
 }
