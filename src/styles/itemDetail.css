@@ -26,8 +26,8 @@ button {
 
 .preview-image {
   background-color: rgb(233, 237, 241);
-  height: 400px;
-  width: 400px;
+  height: 375px;
+  width: 375px;
   position: relative;
 }
 
@@ -39,9 +39,9 @@ button {
   gap: 1rem;
   width: 18rem;
   position: relative;
-  height: 400px;
+  height: 375px;
   background-color: rgb(253, 253, 253);
-  width: 400px;
+  width: 375px;
   align-items: center;
 }
 
@@ -103,10 +103,11 @@ button {
 .item-nav > a > button,
 .add {
   border-radius: 5px;
-  padding: 0.6rem 1rem;
+  padding: 0.45rem 1rem;
   border: none;
   background-color: rgb(255, 136, 0);
   opacity: 0.8;
+  font-size: .9rem;
   color: white;
 }
 
