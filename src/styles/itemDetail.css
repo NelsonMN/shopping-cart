@@ -5,9 +5,9 @@ button {
   transition: 0.5s;
 }
 
-h2 {
+/* h2 {
   font-weight: 100;
-}
+} */
 
 .item-page {
   display: flex;
@@ -50,6 +50,10 @@ h2 {
 }
 
 .preview-details > h1 {
+  font-weight: 100;
+}
+
+.preview-details > h2 {
   font-weight: 100;
 }
 

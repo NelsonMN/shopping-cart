@@ -124,7 +124,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding:  0 1.5rem 1.5rem;
+    padding:  0 1.5rem 1rem;
 }
 
 .total > h1 {
@@ -143,7 +143,7 @@
 }
 
 .sub-total:nth-child(4) {
-    padding-top: .75rem;
+    margin-top: .75rem;
 }
 
 .sub-total {
@@ -153,14 +153,13 @@
 }
 
 .check-out {
-    width: 40%;
     background-color:rgb(255, 151, 54);
     opacity: 0.8;
     border: none;
     color: white;
     padding: .75rem 0;
     transition: 0.5s;
-    font-weight: bold
+    padding: .7rem 4rem;
 }
 .check-out:hover {
     opacity: 1;
@@ -172,4 +171,8 @@
     width: 250px;
     align-self: flex-start;
     padding-left: 1.5rem;
+}
+
+.light {
+    font-weight: 100;
 }

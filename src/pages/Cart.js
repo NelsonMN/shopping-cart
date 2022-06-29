@@ -15,8 +15,8 @@ const EmptyCart = () => {
   return (
     <div className='empty-cart-page'>
       <div className='empty-box'>
-        <h2>Your cart is empty.</h2>
-        <h2>Fill it up with for your next adventure!</h2>
+        <h2 className='light'>Your cart is empty.</h2>
+        <h2 className='light'>Fill it up with for your next adventure!</h2>
         <Link to='/shop'><button>Shop</button></Link>
       </div>
     </div>
@@ -84,7 +84,7 @@ const CartHolder = ({ cart, setCart, setNumItems, total, setTotal }) => {
           )
         })}
       <Total total={total} />
-      <button className='check-out'>Check Out</button>
+      <Link to='../'><button className='check-out'>Check Out</button></Link>
       <img className='credit-logo' src={creditLogo} alt='credit-card-logos'></img>
     </div>
   ) 
@@ -95,12 +95,12 @@ const Total = ({ total }) => {
     <div className='total'>
       <h1>Total</h1>
       <div className='sub-total'>
-        <h2>Sub-total</h2>
-        <h2>${total}</h2>
+        <h2 className='light'>Sub-total</h2>
+        <h2 className='light'>${total}</h2>
       </div>
       <div className='sub-total'>
-        <h2>Shipping</h2>
-        <h2>FREE</h2>
+        <h2 className='light'>Shipping</h2>
+        <h2 className='light'>FREE</h2>
       </div>
       <div className='sub-total'>
         <h2>Total (HST/GST incl.)</h2>
