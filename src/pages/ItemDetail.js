@@ -33,11 +33,11 @@ const ItemDetail = ({ cart, setCart, setTotal, setNumItems }) => {
     const cartDiv = document.querySelector('.cart');
     const numDiv = document.querySelector('.cart-count');
     if (quantity > 0) {
-      numDiv.classList.remove('black')
+      numDiv.classList.remove('color-switch')
       cartDiv.classList.remove('wiggle')
       void numDiv.offsetWidth
       void cartDiv.offsetWidth;
-      numDiv.classList.add('black')
+      numDiv.classList.add('color-switch')
       cartDiv.classList.add('wiggle')
     }
   }

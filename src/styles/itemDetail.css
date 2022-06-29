@@ -171,9 +171,9 @@ button {
     }
   }
 
-  .black {
-    -webkit-animation-name: toBlack;
-    -ms-animation-name: toblack;
+  .color-switch {
+    -webkit-animation-name: color-switch;
+    -ms-animation-name: color-switch;
     -ms-animation-duration: 1000ms;
     -webkit-animation-duration: 1000ms;
     -webkit-animation-iteration-count: 1;
@@ -181,54 +181,54 @@ button {
     -webkit-animation-timing-function: ease-in-out;
     -ms-animation-timing-function: ease-in-out;
   }
-    @-webkit-keyframes toBlack {
+    @-webkit-keyframes color-switch {
     0% {
       background-color: rgb(255, 136, 0);
     }
     25% {
-      background-color: black;
+      background-color: rgb(255, 199, 134);
     }
     50% {
-      background-color: black;
+      background-color: rgb(255, 199, 134);
     }
     75% {
-      background-color: black;
+      background-color: rgb(255, 199, 134);
     }
     100% {
       background-color: rgb(255, 136, 0);
     }
     }
     
-    @-ms-keyframes toBlack {
+    @-ms-keyframes color-switch {
     0% {
       background-color: rgb(255, 136, 0);
     }
     25% {
-      background-color: black;
+      background-color: rgb(255, 199, 134);
     }
     50% {
-      background-color: black;
+      background-color: rgb(255, 199, 134);
     }
     75% {
-      background-color: black;
+      background-color: rgb(255, 199, 134);
     }
     100% {
       background-color: rgb(255, 136, 0);
     }
     }
     
-    @keyframes toBlack {
+    @keyframes color-switch {
       0% {
         background-color: rgb(255, 136, 0);
       }
       25% {
-        background-color: black;
+        background-color: rgb(255, 199, 134);
       }
       50% {
-        background-color: black;
+        background-color: rgb(255, 199, 134);
       }
       75% {
-        background-color: black;
+        background-color: rgb(255, 199, 134);
       }
       100% {
         background-color: rgb(255, 136, 0);

@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import App from "../App";
 import Shop from "./Shop";
 import Cart from './Cart';
@@ -30,7 +30,7 @@ const RouteSwitch = () => {
           <Route path='/' element={<App total={total}/>} />
           <Route path='/shop' element={<Shop items={items} getItems={getItems} />} />
           <Route path='/shop/:id' element={<ItemDetail setNumItems={setNumItems} cart={cart} setCart={setCart} setTotal={setTotal} />} />
-          <Route path='/cart' element={<Cart cart={cart} setCart={setCart} total={total} setTotal={setTotal} />} />
+          <Route path='/cart' element={<Cart cart={cart} numItems={numItems} setNumItems={setNumItems} setCart={setCart} total={total} setTotal={setTotal} />} />
         </Routes>
         <Footer />
       </BrowserRouter>
