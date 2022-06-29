@@ -24,7 +24,7 @@ const RouteSwitch = () => {
   };
 
   return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Header numItems={numItems}/>
         <Routes>
           <Route path='/' element={<App total={total}/>} />
