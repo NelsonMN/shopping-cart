@@ -8,7 +8,7 @@ This is a mock online store allowing users to shop camping related items built w
      alt="Home Page"
      style="height: 500px;  margin: 0 auto;" />
 
-<img src="src/images/screenshots/shop-page.png"
+<img src="src/images/screenshots/Shop-page.png"
      alt="Shop Page"
      style="height: 500px; margin: 0 auto;" />
 
