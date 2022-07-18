@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Campify
 
 This is a resume building application that allows users to fill out and export their information from a template to PDF. This is my first ReactJS project and it uses functional components and hooks.
@@ -37,3 +38,6 @@ This is a resume building application that allows users to fill out and export t
 Nelson M - https://www.linkedin.com/in/nelsonmieszkalski/
 
 Project Link: [https://nelsonmn.github.io/shopping-cart/] (https://nelsonmn.github.io/shopping-cart/)
+=======
+
+>>>>>>> 20c9a0ee504b2c848ed43ce07357f22f2a6cb5b0
