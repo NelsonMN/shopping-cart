@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Campify
 
 This is a mock online store allowing users to shop camping related items built with ReactJS. It uses functional components, hooks, and React Router DOM for seamless navigation between pages.
@@ -7,23 +6,23 @@ This is a mock online store allowing users to shop camping related items built w
 
 <img src="src/images/screenshots/Home-page.png"
      alt="Home Page"
-     style="height: 350px;  margin: 0 auto;" />
+     style="height: 500px;  margin: 0 auto;" />
 
 <img src="src/images/screenshots/shop-page.png"
      alt="Shop Page"
-     style="height: 350px; margin: 0 auto;" />
+     style="height: 500px; margin: 0 auto;" />
 
 <img src="src/images/screenshots/Item-page.png"
      alt="Item Page"
-     style="height: 350px; margin: 0 auto;" />
+     style="height: 500px; margin: 0 auto;" />
 
 <img src="src/images/screenshots/Cart-page.png"
      alt="Cart Page"
-     style="height: 350px; margin: 0 auto;" />
+     style="height: 500px; margin: 0 auto;" />
 
 <img src="src/images/screenshots/Empty-cart.png"
      alt="Empty Cart"
-     style="height: 350px; margin: 0 auto;" />
+     style="height: 500px; margin: 0 auto;" />
 
 ### Built With
 
@@ -38,6 +37,3 @@ This is a mock online store allowing users to shop camping related items built w
 Nelson M - https://www.linkedin.com/in/nelsonmieszkalski/
 
 Project Link: [https://nelsonmn.github.io/shopping-cart/] (https://nelsonmn.github.io/shopping-cart/)
-=======
-
->>>>>>> 20c9a0ee504b2c848ed43ce07357f22f2a6cb5b0
