@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 ## Campify
 
-This is a resume building application that allows users to fill out and export their information from a template to PDF. This is my first ReactJS project and it uses functional components and hooks.
+This is a mock online store allowing users to shop camping related items built with ReactJS. It uses functional components, hooks, and React Router DOM for seamless navigation between pages.
 
 ## Screenshots
 
