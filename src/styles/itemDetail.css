@@ -253,4 +253,33 @@ button {
       100% {
         background-color: rgb(255, 136, 0);
       }
-    }
+}
+
+@media (max-width: 500px) {
+  .item-showcase {
+    margin: .5rem 0;
+  }
+
+  .item-nav {
+    padding: 1rem 1rem;
+  }
+
+  .item-holder {
+    flex-direction: column;
+  }
+  
+  .preview-image {
+    height: 250px;
+    width: 250px;
+  }
+
+  .preview-details {
+    padding: 1rem 1rem;
+    width: auto;
+    height: auto;
+  }
+  .preview-details > h1,
+  .preview-details > h2 {
+    font-size: 1.125rem;
+  }
+}

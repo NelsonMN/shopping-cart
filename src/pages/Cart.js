@@ -103,7 +103,7 @@ const Total = ({ total }) => {
         <h2 className='light'>FREE</h2>
       </div>
       <div className='sub-total'>
-        <h2 className='total-amount'>Total (HST/GST incl.)</h2>
+        <h2 className='total-amount'>Total (taxe inc.)</h2>
         <h2 className='total-amount'>${total} CAD</h2>
       </div>
       

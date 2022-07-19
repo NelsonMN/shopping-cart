@@ -184,3 +184,25 @@
 .total-amount {
     font-size: 1.125rem;
 }
+
+
+@media (max-width: 500px) {
+    .cart-item {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nonempty-cart-page > h1 {
+        font-size: 1.25rem;
+    }
+
+    .cart-item-details {
+        text-align: center;
+    }
+
+    .total > h1,
+    .light,
+    .total-amount {
+        font-size: 1rem;
+    }
+}
