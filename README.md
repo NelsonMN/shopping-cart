@@ -3,27 +3,27 @@
 This is a mock online store allowing users to shop camping related items built with ReactJS. It uses functional components, hooks, and React Router DOM for seamless navigation between pages.
 
 ## Screenshots
-<div style='align: center;'>
-     <img src="src/images/screenshots/Home-page.png"
-          alt="Home Page"
-          style="height: 500px;  margin: 0 auto; " />
 
-     <img src="src/images/screenshots/Shop-page.png"
-          alt="Shop Page"
-          style="height: 500px; margin: 0 auto;" />
+<img src="src/images/screenshots/Home-page.png"
+     alt="Home Page"
+     style="height: 500px;  margin: 0 auto; align: center" />
 
-     <img src="src/images/screenshots/Item-page.png"
-          alt="Item Page"
-          style="height: 500px; margin: 0 auto;" />
+<img src="src/images/screenshots/Shop-page.png"
+     alt="Shop Page"
+     style="height: 500px; margin: 0 auto; align: center" />
 
-     <img src="src/images/screenshots/Cart-page.png"
-          alt="Cart Page"
-          style="height: 500px; margin: 0 auto;" />
+<img src="src/images/screenshots/Item-page.png"
+     alt="Item Page"
+     style="height: 500px; margin: 0 auto; align: center" />
 
-     <img src="src/images/screenshots/Empty-cart.png"
-          alt="Empty Cart"
-          style="height: 500px; margin: 0 auto;" />
-</div>
+<img src="src/images/screenshots/Cart-page.png"
+     alt="Cart Page"
+     style="height: 500px; margin: 0 auto; align: center" />
+
+<img src="src/images/screenshots/Empty-cart.png"
+     alt="Empty Cart"
+     style="height: 500px; margin: 0 auto; align: center" />
+
 
 ### Built With
 
