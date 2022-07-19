@@ -3,7 +3,7 @@
 This is a mock online store allowing users to shop camping related items built with ReactJS. It uses functional components, hooks, and React Router DOM for seamless navigation between pages.
 
 ## Screenshots
-<div align: center;>
+<div style='align: center;'>
      <img src="src/images/screenshots/Home-page.png"
           alt="Home Page"
           style="height: 500px;  margin: 0 auto; " />
