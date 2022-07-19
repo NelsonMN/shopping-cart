@@ -85,11 +85,11 @@ h3 {
 
 @media (max-width: 500px) {
     .nav {
-        padding: 0;
+        padding: 1rem 0;
         justify-content: center;
     }
 
     .catalog {
-        padding: 2.5rem 0;
+        padding: 1rem 0;
     }
 }
