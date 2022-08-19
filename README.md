@@ -5,11 +5,12 @@
      <img src="src/images/screenshots/desktop/Main.png" alt="Main" />
 </div>
 
+<br>
+
 This is a mock online store allowing users to shop camping related items built with ReactJS. It uses functional components, hooks, and React Router DOM for seamless navigation between pages.
 
 ## Getting started
 
-<<<<<<< HEAD
 ```
 git clone git@github.com:NelsonMN/shopping-cart.git
 cd shopping-cart
@@ -21,6 +22,7 @@ npm start
 
 ### Desktop
 
+<br>
 <div align="center">
      <img src="src/images/screenshots/desktop/Home-page.png"
           alt="Home Page"
@@ -43,30 +45,9 @@ npm start
           style="height: 500px;" 
           />
 </div>
+<br>
 
 ### Mobile
-=======
-<img src="src/images/screenshots/Home-page.png"
-     alt="Home Page"
-     style="height: 500px;  margin: 0 auto; align: center" />
-
-<img src="src/images/screenshots/Shop-page.png"
-     alt="Shop Page"
-     style="height: 500px; margin: 0 auto; align: center" />
-
-<img src="src/images/screenshots/Item-page.png"
-     alt="Item Page"
-     style="height: 500px; margin: 0 auto; align: center" />
-
-<img src="src/images/screenshots/Cart-page.png"
-     alt="Cart Page"
-     style="height: 500px; margin: 0 auto; align: center" />
-
-<img src="src/images/screenshots/Empty-cart.png"
-     alt="Empty Cart"
-     style="height: 500px; margin: 0 auto; align: center" />
-
->>>>>>> d21f9345a3d9fdc732db9db2ed8d050a01d6acea
 
 <div align="center">
      <img src="src/images/screenshots/mobile/Mobile-Main.png"
