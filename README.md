@@ -9,6 +9,7 @@ This is a mock online store allowing users to shop camping related items built w
 
 ## Getting started
 
+<<<<<<< HEAD
 ```
 git clone git@github.com:NelsonMN/shopping-cart.git
 cd shopping-cart
@@ -44,6 +45,28 @@ npm start
 </div>
 
 ### Mobile
+=======
+<img src="src/images/screenshots/Home-page.png"
+     alt="Home Page"
+     style="height: 500px;  margin: 0 auto; align: center" />
+
+<img src="src/images/screenshots/Shop-page.png"
+     alt="Shop Page"
+     style="height: 500px; margin: 0 auto; align: center" />
+
+<img src="src/images/screenshots/Item-page.png"
+     alt="Item Page"
+     style="height: 500px; margin: 0 auto; align: center" />
+
+<img src="src/images/screenshots/Cart-page.png"
+     alt="Cart Page"
+     style="height: 500px; margin: 0 auto; align: center" />
+
+<img src="src/images/screenshots/Empty-cart.png"
+     alt="Empty Cart"
+     style="height: 500px; margin: 0 auto; align: center" />
+
+>>>>>>> d21f9345a3d9fdc732db9db2ed8d050a01d6acea
 
 <div align="center">
      <img src="src/images/screenshots/mobile/Mobile-Main.png"
